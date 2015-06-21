@@ -14,7 +14,7 @@
     <copyright>Copyright © 1997-2015 by Donald Lessau</copyright>
     <licenseUrl>http://www.xyplorer.com/LicenseXY.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>http://www.xyplorer.com/img/xyplorer-128-flat.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/xyplorer/icon.png</iconUrl>
     <releaseNotes>http://www.xyplorer.com/whatsnew.php#current</releaseNotes>
   </metadata>
   <files>
