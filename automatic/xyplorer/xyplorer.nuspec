@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>xyplorer</id>
+    <title>XYplorer</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Donald Lessau</authors>
+    <owners>Marek Lenik</owners>
+    <summary>XYplorer is a file manager for Windows.</summary>
+    <description>It features tabbed browsing, a powerful file search, a versatile preview, a highly customizable interface, optional dual pane, and a large array of unique ways to efficiently automate frequently recurring tasks. It's fast and light, it's innovative, and it's portable.</description>
+    <projectUrl>http://www.xyplorer.com</projectUrl>
+    <tags>file-manager file-management dual-panel explorer</tags>
+    <copyright>Copyright © 1997-2015 by Donald Lessau</copyright>
+    <licenseUrl>http://www.xyplorer.com/LicenseXY.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>http://www.xyplorer.com/img/xyplorer-128-flat.png</iconUrl>
+    <releaseNotes>http://www.xyplorer.com/whatsnew.php#current</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
