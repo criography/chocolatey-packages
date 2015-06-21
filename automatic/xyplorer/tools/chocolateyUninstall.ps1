@@ -1,7 +1,9 @@
-$packageName = 'xyplorer'    
+﻿$packageName = 'xyplorer'    
 $programName = 'XYplorer'
 $installerType = 'EXE'
 $silentArgs = '/S'
+
+
 
 try {
 

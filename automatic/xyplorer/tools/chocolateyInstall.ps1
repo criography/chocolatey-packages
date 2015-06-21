@@ -1,4 +1,4 @@
-$packageName    = "xyplorer"
+﻿$packageName    = "xyplorer"
 $installerType  = "EXE"
 $packageVersion = "{{PackageVersion}}"
 $packageChecksum= "{{checksum}}"
@@ -14,6 +14,7 @@ $tempPath       = $env:temp,"chocolatey",$packageName -join "\"
 
 #establish full path to local copy of downloaded zip file
 $pathToZip      = ($tempPath,$filename -join "\")
+
 
 
 
