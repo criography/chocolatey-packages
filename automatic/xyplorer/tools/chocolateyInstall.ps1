@@ -1,7 +1,6 @@
 ﻿$packageName    = "xyplorer"
 $installerType  = "EXE"
 $packageVersion = "{{PackageVersion}}"
-$packageChecksum= "{{checksum}}"
 $url            = "{{DownloadUrl}}"
 $silentArgs     = "/S"
 $validExitCodes = @(0)
@@ -21,7 +20,7 @@ $pathToZip      = ($tempPath,$filename -join "\")
 try { 
 
   # download zip package
-  Get-ChocolateyWebFile "$packageName" $pathToZip "$url" "" "$packageChecksum"
+  Get-ChocolateyWebFile "$packageName" $pathToZip "$url"
 
   # extract it
   Get-ChocolateyUnzip $pathToZip $tempPath
