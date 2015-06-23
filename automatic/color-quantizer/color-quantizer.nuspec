@@ -8,23 +8,15 @@
     <authors>x128</authors>
     <owners>Marek Lenik</owners>
     <summary>Color quantizer is a simple-to-use software application that provides a friendly environment and intuitive options for adjusting all colors in images.</summary>
-    <description>Color quantizer is a simple-to-use software application that provides a friendly environment and intuitive options for adjusting all colors in images. Although it primarily caters to advanced users, it shouldn't be too difficult to figure out by novices.
+    <description>Color quantizer - a small program makes it easy to optimize your images for the web.
+Key features:
++  converting any number of colors
++ Supports writing png8 with alpha transparency
++ the opportunity to set a mask for quality critical areas
++ convenient editing palette
++ Batch optimization
 
-Installation is not a prerequisite, which makes Color quantizer portable. You can drop the executable file to a custom directory on the hard disk and just click it to run.
-
-It is also possible to save the app to a USB flash disk or similar storage unit, in order to run it on any machine rapidly.
-
-What's important is that the tool does not create new entries in the Windows registry, nor copy additional files to your system without your consent.
-
-The interface is based on a regular window with a familiar structure, where you can import images using either the file browser or drag-and-drop feature.
-
-When hovering the mouse you can view the respective image section zoomed in. Selecting it reveals the color and alpha codes. A palette containing all colors available in the picture is shown underneath. Replacing a particular color with anything from the color spectrum is possible through the right-click menu.
-
-Furthermore, you can add or delete colors, sort the palette (e.g. popularity, luminance), as well as configure quantizer settings by selecting a preset profile (e.g. adaptive, uniform, grayscale) or specifying custom properties (e.g. number of colors, frame size, errors percentage, color space and difference, dithering). The file can be saved to PNG, GIF, BMP, JPG, JP2 or TGA format.
-
-The simple-to-use program has minimal impact on computer performance, using a low amount of CPU and RAM. It has a good response time and quickly commits changes. We haven't found any problems in our tests, since the tool did not freeze, crash or show error notifications.
-
-In conclusion, Color quantizer supplies users with a simple means of adjusting or replacing colors within an image, and it should please anyone, thanks to its variety of powerful, yet intuitive settings.</description>
+    If set, Color Quantizer will install to `%ChocolateyBinRoot%`, otherwise it'll land in `"C:/tools/"`</description>
     <projectUrl>http://x128.ho.ua/color-quantizer.html</projectUrl>
     <tags>png compression image-optimisation image-processing batch-processing png-optimization</tags>
     <copyright>x128 © 2009-2015</copyright>
