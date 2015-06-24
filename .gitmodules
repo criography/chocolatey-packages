@@ -1,0 +1,6 @@
+[submodule "automatic/cyberghost/tools/helpers"]
+	path = automatic/cyberghost/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/color-quantizer/tools/helpers"]
+	path = automatic/color-quantizer/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
