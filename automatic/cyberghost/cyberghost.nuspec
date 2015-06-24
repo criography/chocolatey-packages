@@ -3,17 +3,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>cyberghost</id>
-    <title>cyberghost</title>
+    <title>CyberGhost</title>
     <version>{{PackageVersion}}</version>
     <authors>CyberGhost S.R.L.</authors>
     <owners>Marek Lenik</owners>
     <summary>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content.</summary>
-    <description>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.</description>
+    <description><![CDATA[CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.
 
     Learn more here: http://www.cyberghostvpn.com/en_gb/advantages
 
     It's a commercial, subscription service, with a free, limited version. This package is a client for it.
     For pricing, go to http://www.cyberghostvpn.com/en_gb#buy
+    ]]></description>
     <projectUrl>http://www.cyberghostvpn.com</projectUrl>
     <tags>anonymous privacy privacy-protection VPN anonymous-browsing</tags>
     <copyright>© 2015 CyberGhost S.R.L.</copyright>
