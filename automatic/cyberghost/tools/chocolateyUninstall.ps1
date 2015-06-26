@@ -1,7 +1,7 @@
 . (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
 $packageName    = 'cyberghost'
-$packageTitle   = 'Cyber Ghost {{PackageVersion}}'
+$packageTitle   = 'CyberGhost 5'
 $installerType  = 'EXE'
 $silentArgs     = '/VERYSILENT /NORESTART'
 

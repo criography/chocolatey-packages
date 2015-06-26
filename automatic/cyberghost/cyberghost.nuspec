@@ -22,6 +22,9 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.3/automatic/cyberghost/icon.png</iconUrl>
     <releaseNotes></releaseNotes>
+	  <dependencies>
+		  <dependency id="dotnet3.5" />
+	  </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
