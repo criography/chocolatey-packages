@@ -4,3 +4,6 @@
 [submodule "automatic/color-quantizer/tools/helpers"]
 	path = automatic/color-quantizer/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/garmin-express/tools/helpers"]
+	path = automatic/garmin-express/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
