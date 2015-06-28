@@ -9,12 +9,12 @@
     <owners>Marek Lenik</owners>
     <summary>Color quantizer is a simple-to-use software application that provides a friendly environment and intuitive options for adjusting all colors in images.</summary>
     <description>Color quantizer - a small program makes it easy to optimize your images for the web.
-Key features:
-+  converting any number of colors
-+ Supports writing png8 with alpha transparency
-+ the opportunity to set a mask for quality critical areas
-+ convenient editing palette
-+ Batch optimization
+    Key features:
+    +  converting any number of colors
+    + Supports writing png8 with alpha transparency
+    + the opportunity to set a mask for quality critical areas
+    + convenient editing palette
+    + Batch optimization
 
     If set, Color Quantizer will install to `%ChocolateyBinRoot%`, otherwise it'll land in `"C:/tools/"`</description>
     <projectUrl>http://x128.ho.ua/color-quantizer.html</projectUrl>

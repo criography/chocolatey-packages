@@ -13,3 +13,9 @@
 [submodule "automatic/uplay/tools/helpers"]
 	path = automatic/uplay/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/xyplorer/tools/helpers"]
+	path = automatic/xyplorer/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/cheat-engine/tools/helpers"]
+	path = automatic/cheat-engine/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git

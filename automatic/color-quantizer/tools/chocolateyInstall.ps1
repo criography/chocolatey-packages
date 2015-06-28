@@ -3,8 +3,7 @@
 $packageTitle   = "Color Quantizer"
 $packageName    = "color-quantizer"
 $url            = "{{DownloadUrl}}"
-$installDir     = GetBinRoot
-$installDir     = "$installDir\$packageName"
+$installDir     = Join-Path $(GetBinRoot) "$packageName"
 $startMenu      = GetMenuStartPath
 
 
@@ -14,5 +13,10 @@ Install-ChocolateyZipPackage "$packageName" "$url" $installDir
 
 
 # add Start Menu shortcut
-New-Item "$startMenu\Programs\$packageTitle" -type directory -force
-Install-ChocolateyShortcut -shortcutFilePath "$startMenu\Programs\$packageTitle\$packageTitle.lnk" -targetPath "$installDir\cq.exe"
+New-Item "$startMenu\Programs\$packageTitle" `
+    -type directory `
+    -force
+
+Install-ChocolateyShortcut `
+    -shortcutFilePath   "$startMenu\Programs\$packageTitle\$packageTitle.lnk" `
+    -targetPath         "$installDir\cq.exe"
