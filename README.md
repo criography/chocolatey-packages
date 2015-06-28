@@ -6,6 +6,8 @@ http://unattended.sourceforge.net/installers.php
 http://www.migee.com/2010/09/24/solution-for-unattendedsilent-installs-and-would-you-like-to-install-this-device-software/  
 http://wpkg.org/index.php?title=Category:Silent_Installers&pagefrom=FlashShock
 http://appsnap.googlecode.com/svn/trunk/appsnap/db.ini
+https://msdn.microsoft.com/en-us/library/aa372024%28v=vs.85%29.aspx
+
 
 ## Handy shorthands ##
 1. to test locally with dependencies:

@@ -16,7 +16,7 @@
     <tags>garmin geolocation gps drivers mapping</tags>
     <copyright>Copyright © 1996-2015 Garmin Ltd.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-   <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.4/automatic/garmin-express/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.4/automatic/garmin-express/icon.png</iconUrl>
     <releaseNotes>http://www.softpedia.com/progChangelog/Garmin-Express-Changelog-239741.html</releaseNotes>
   </metadata>
   <files>

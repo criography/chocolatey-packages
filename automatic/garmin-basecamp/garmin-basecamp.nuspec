@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>garmin-basecamp</id>
+		<title>Garmin Basecamp</title>
+		<version>{{PackageVersion}}</version>
+		<authors>Garmin Ltd.</authors>
+		<owners>Marek</owners>
+		<summary>Use BaseCamp to plan your next hiking, biking, motorcycling, driving or off-roading trip. You can view maps, plan routes, and mark waypoints and tracks from your computer and then transfer them to your device.</summary>
+		<description>
+			_FEATURES_
+
+			•Import and view maps in 2-D or 3-D, including TOPO and City Navigator® maps.
+			•Create, edit and organize routes, waypoints and more on your computer.
+			•View BirdsEye Satellite Imagery, BirdsEye TOPO Raster or BirdsEye Select Raster maps and transfer the data to your device (subscriptions required).
+			•Create and share Garmin Adventures.
+			•Create and share geotagged photos.
+			•View playback of routes, tracks and adventures.
+			•Search for geocaches through integrated OpenCaching support.
+		</description>
+		<projectUrl>http://www.garmin.com/en-GB/shop/downloads/basecamp</projectUrl>
+		<tags>garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging</tags>
+		<copyright>Copyright © 1996-2015 Garmin Ltd.</copyright>
+		<licenseUrl>https://basecamp.com/terms</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.5/automatic/garmin-basecamp/icon.png</iconUrl>
+		<dependencies>
+			<dependency id="dotnet4.5" />
+		</dependencies>
+		<releaseNotes>http://www8.garmin.com/support/download_details.jsp?id=4435</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
