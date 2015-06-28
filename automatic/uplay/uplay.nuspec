@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>uplay</id>
+    <title>uPlay</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Marek</authors>
+    <owners>Marek Lenik</owners>
+    <summary>Uplay is a cross-platform service available in more than 50 games. It enables actions, rewards and social interactions. With Uplay, the more you play, the more you win!</summary>
+    <description>Uplay is a service created by Ubisoft that provides its users with an experience similar to the achievements offered by other game companies. The service is provided across various platforms including: PC, Mac, PS3, Xbox360, Facebook, iPhone, iPad, and most recently revealed, OnLive.
+
+	    Each Uplay enabled game has various actions that can be accomplished to earn Uplay points. You can then spend these points to unlock game-related rewards for any available game. On Uplay you can find the hottest games from Ubisoft along with all the information you need on them.
+
+	    The application displays a user-friendly interface which makes it easy to use by anyone. From a main window you are able to browse game releases, add new ones to your library and even launch those which you have installed.
+
+	    You can also manage your account information and see what games your friends are playing. To make things easier, Uplay even displays the awards you can win and also provides information about what you have to achieve for each one.
+    </description>
+    <projectUrl>https://uplay.ubi.com</projectUrl>
+    <tags>ubisoft ubisoft-client games-distributor games-delivery ubisoft-downloader game-downloader gaming</tags>
+    <copyright>©2014 Ubisoft Entertainment. All rights reserved. Uplay logo, Ubisoft, Ubi.com,and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.</copyright>
+    <licenseUrl><![CDATA[https://uplayconnect.ubi.com/Default/Tou?appId=314d4fef-e568-454a-ae06-43e3bece12a6&genomeId=109bec19-c487-4ec4-b9de-da901a396803&lang=en-GB&nextUrl=https%3A%2F%2Fuplay.ubi.com%2F%23!%2Fen-GB%2Frefresh-location&Type=tou&
+	    countryCode=GB]]></licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes>http://forums.ubi.com/showthread.php/1141896-Uplay-PC-Client-May-Release</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

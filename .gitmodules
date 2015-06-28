@@ -10,3 +10,6 @@
 [submodule "automatic/garmin-basecamp/tools/helpers"]
 	path = automatic/garmin-basecamp/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/uplay/tools/helpers"]
+	path = automatic/uplay/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git

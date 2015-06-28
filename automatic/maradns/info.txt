@@ -1,0 +1,1 @@
+http://blog.mixu.net/2009/10/14/how-to-setup-a-lan-dns-server-using-maradns-under-windows-7/
