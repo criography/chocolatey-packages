@@ -19,3 +19,6 @@
 [submodule "automatic/cheat-engine/tools/helpers"]
 	path = automatic/cheat-engine/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/hdsentinel/tools/helpers"]
+	path = automatic/hdsentinel/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
