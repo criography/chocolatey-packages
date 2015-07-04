@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="202c4de0-285b-45b1-90ca-66d4284f77fb">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8c8bf6a1-ba45-4679-b3b1-ebf7cc808302">
     <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
@@ -29,7 +29,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="" /></Url>
+            <Url><placeholder name="Url with version information" value="http://codebox.org.uk/pages/bitmeter2/changelog" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -66,15 +66,15 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.harddisksentinel.com/hdsentinel_setup.zip" /></FixedDownloadUrl>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://codebox.org.uk/downloads/bitmeter2" /></FixedDownloadUrl>
     <Name><placeholder name="Name" value="" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>20097096</LastFileSize>
-    <LastFileDate>2015-01-13T06:03:55+00:00</LastFileDate>
+    <LastFileSize>1417925</LastFileSize>
+    <LastFileDate>2015-07-04T22:54:36.205046+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -94,12 +94,11 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>&lt;h2&gt;Hard Disk Sentinel Revision History&lt;/h2&gt;.*?&lt;h3&gt;Hard Disk Sentinel ([\d.]+?) \(</Regex>
-            <Url>http://www.hdsentinel.com/revision.php</Url>
-            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
-  &lt;TR&gt;
-    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
-            <EndText>&lt;BR&gt;</EndText>
+            <Regex>&lt;div class="changeInfo" xmlns:date="http://exslt.org/dates-and-times"&gt;\n\s*&lt;h3&gt;([\d\.]+)\s*\[Released</Regex>
+            <Url>http://codebox.org.uk/pages/bitmeter2/changelog</Url>
+            <StartText>&lt;div class="changeInfo" xmlns:date="http://exslt.org/dates-and-times"&gt;
+&lt;h3&gt;</StartText>
+            <EndText> [Released: </EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -112,13 +111,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\hdsentinel_setup.zip</PreviousLocation>
+    <PreviousLocation>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\BitMeter2.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-02T23:00:59.6674581+01:00</LastUpdated>
+    <LastUpdated>2015-07-04T22:54:36.2075463+01:00</LastUpdated>
     <TargetPath>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\</TargetPath>
-    <FixedDownloadUrl>http://www.harddisksentinel.com/hdsentinel_setup.zip</FixedDownloadUrl>
-    <Name>hdsentinel</Name>
+    <FixedDownloadUrl>http://codebox.org.uk/downloads/bitmeter2</FixedDownloadUrl>
+    <Name>bitmeter2</Name>
   </ApplicationJob>
 </Jobs>

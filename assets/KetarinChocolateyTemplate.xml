@@ -36,20 +36,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>url64</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>""</TextualContent>
-            <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -62,7 +48,7 @@
     <Enabled>true</Enabled>
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
-    <TargetPath>C:\Chocolatey\_work\</TargetPath>
+    <TargetPath>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://nowhere.com/nothing{version}.zip" /></FixedDownloadUrl>
     <Name><placeholder name="Name" /></Name>
   </ApplicationJob>

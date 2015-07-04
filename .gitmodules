@@ -22,3 +22,9 @@
 [submodule "automatic/hdsentinel/tools/helpers"]
 	path = automatic/hdsentinel/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/bitmeter/tools/helpers"]
+	path = automatic/bitmeter/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/svg-cleaner/tools/helpers"]
+	path = automatic/svg-cleaner/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
