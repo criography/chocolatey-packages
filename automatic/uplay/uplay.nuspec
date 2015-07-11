@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>uplay</id>
+    <id>{{PackageName}}</id>
     <title>uPlay</title>
     <version>{{PackageVersion}}</version>
     <authors>Marek</authors>
@@ -22,7 +22,7 @@
     <licenseUrl><![CDATA[https://uplayconnect.ubi.com/Default/Tou?appId=314d4fef-e568-454a-ae06-43e3bece12a6&genomeId=109bec19-c487-4ec4-b9de-da901a396803&lang=en-GB&nextUrl=https%3A%2F%2Fuplay.ubi.com%2F%23!%2Fen-GB%2Frefresh-location&Type=tou&
 	    countryCode=GB]]></licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-	  <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.6/automatic/uplay/icon.png</iconUrl>
+	  <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.6/automatic/{{PackageName}}/icon.png</iconUrl>
     <releaseNotes>http://forums.ubi.com/showthread.php/1141896-Uplay-PC-Client-May-Release</releaseNotes>
   </metadata>
   <files>

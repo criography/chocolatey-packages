@@ -1,7 +1,7 @@
 . (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
 $packageTitle   = "Color Quantizer"
-$packageName    = "color-quantizer"
+$packageName    = "{{PackageName}}"
 $url            = "{{DownloadUrl}}"
 $installDir     = Join-Path $(GetBinRoot) "$packageName"
 $startMenu      = GetMenuStartPath

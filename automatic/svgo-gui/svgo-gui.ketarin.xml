@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c8c3bbbd-4392-4939-8336-21deb3f1f9b7">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4516750b-6573-4974-95d6-15a82b3bb5bd">
     <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
@@ -29,7 +29,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0" /></Url>
+            <Url><placeholder name="Url with version information" value="https://github.com/svg/svgo-gui" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -53,14 +53,14 @@
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\</TargetPath>
     <FixedDownloadUrl><placeholder name="Download Url - Optional" value="{url}" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="exiftoolgui" /></Name>
+    <Name><placeholder name="Name" value="svgo-gui" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>1390256</LastFileSize>
-    <LastFileDate>2015-07-11T00:32:58.7296101</LastFileDate>
+    <LastFileSize>17360917</LastFileSize>
+    <LastFileDate>2015-07-11T14:03:58.8012124+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -79,11 +79,13 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0</Url>
-            <StartText>&lt;meta name="description" content="Latest ExiftoolGUI version </StartText>
-            <EndText>"</EndText>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>SVGO GUI v([\d\.]+)&lt;/h2&gt;</Regex>
+            <Url>https://github.com/svg/svgo-gui</Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -97,9 +99,8 @@
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>&lt;div class="post"&gt;.*?&lt;a href="(.*?)".*?Click here to download ExiftoolGUI </Regex>
-            <Url>http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0</Url>
-            <StartText>&lt;a href="</StartText>
+            <Regex>&lt;li&gt;Windows.*?&lt;a href="(.*?)"&gt;svgo-gui-win-ia32.7z&lt;/a&gt;</Regex>
+            <Url>https://github.com/svg/svgo-gui</Url>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -111,13 +112,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\exiftoolgui516.zip</PreviousLocation>
+    <PreviousLocation>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\svgo-gui-win-ia32.7z</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-07-11T00:32:58.7296101</LastUpdated>
+    <LastUpdated>2015-07-11T14:03:58.8182146+01:00</LastUpdated>
     <TargetPath>C:\Users\crio\AppData\Local\Temp\chocolatey\_downs\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
-    <Name>exiftoolgui</Name>
+    <Name>svgo-gui</Name>
   </ApplicationJob>
 </Jobs>

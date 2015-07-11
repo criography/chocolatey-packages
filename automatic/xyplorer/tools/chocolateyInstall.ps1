@@ -1,4 +1,4 @@
-﻿$packageName    = "xyplorer"
+﻿$packageName    = "{{PackageName}}"
 $installerType  = "EXE"
 $packageVersion = "{{PackageVersion}}"
 $url            = "{{DownloadUrl}}"

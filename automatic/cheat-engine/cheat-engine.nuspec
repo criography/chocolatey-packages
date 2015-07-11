@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>cheat-engine</id>
+    <id>{{PackageName}}</id>
     <title>Cheat Engine</title>
     <version>{{PackageVersion}}</version>
     <authors>Eric "Dark Byte" Heijnen</authors>
@@ -16,7 +16,7 @@
     <copyright>Copyright © 2015 - Eric "Dark Byte" Heijnen</copyright>
     <licenseUrl>https://code.google.com/p/cheat-engine/source/browse/trunk/Cheat%20Engine/release/License.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.1/automatic/cheat-engine/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.1/automatic/{{PackageName}}/icon.png</iconUrl>
     <releaseNotes>https://github.com/cheat-engine/cheat-engine/releases</releaseNotes>
   </metadata>
   <files>

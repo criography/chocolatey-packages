@@ -1,6 +1,6 @@
 . (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
-$packageName    = "garmin-basecamp"
+$packageName    = "{{PackageName}}"
 $packageTitle   = 'Garmin Basecamp'
 $installerType  = "msi"
 $silentArgs     = '/qn /norestart'

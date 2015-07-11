@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>cyberghost</id>
+    <id>{{PackageName}}</id>
     <title>CyberGhost</title>
     <version>{{PackageVersion}}</version>
     <authors>CyberGhost S.R.L.</authors>
@@ -20,7 +20,7 @@
     <copyright>© 2015 CyberGhost S.R.L.</copyright>
     <licenseUrl>http://www.cyberghostvpn.com/en_gb/terms</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.3/automatic/cyberghost/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.3/automatic/{{PackageName}}/icon.png</iconUrl>
     <releaseNotes></releaseNotes>
 	  <dependencies>
 		  <dependency id="dotnet3.5" />

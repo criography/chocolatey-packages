@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>color-quantizer</id>
+    <id>{{PackageName}}</id>
     <title>Color Quantizer</title>
     <version>{{PackageVersion}}</version>
     <authors>x128</authors>
@@ -21,7 +21,7 @@
     <tags>png compression image-optimisation image-processing batch-processing png-optimization</tags>
     <copyright>x128 © 2009-2015</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.2/automatic/color-quantizer/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.2/automatic/{{PackageName}}/icon.png</iconUrl>
     <releaseNotes>http://www.softpedia.com/progChangelog/Color-quantizer-Changelog-206091.html</releaseNotes>
   </metadata>
   <files>

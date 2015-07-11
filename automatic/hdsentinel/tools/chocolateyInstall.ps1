@@ -1,6 +1,6 @@
 ﻿. (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
-$packageName    = "hdsentinel"
+$packageName    = "{{PackageName}}"
 $packageTitle   = "HDSentinel"
 $installerType  = "EXE"
 $packageVersion = "{{PackageVersion}}"

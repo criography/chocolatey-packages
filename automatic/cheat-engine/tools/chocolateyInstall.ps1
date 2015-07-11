@@ -1,4 +1,4 @@
-$packageName    = "cheat-engine"
+$packageName    = "{{PackageName}}"
 $installerType  = "EXE"
 $url            = "{{DownloadUrl}}"
 $silentArgs     = '/VERYSILENT /NORESTART /COMPONENTS="program,languages,languages\english"'

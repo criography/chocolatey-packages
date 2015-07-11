@@ -1,7 +1,7 @@
 . (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
 $packageTitle   = "ExifTool GUI"
-$packageName    = "exiftoolgui"
+$packageName    = "{{PackageName}}"
 $url            = "{{DownloadUrl}}"
 $installDir     = $(GetBinRoot)
 $startMenu      = GetMenuStartPath

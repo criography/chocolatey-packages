@@ -1,4 +1,4 @@
-$packageName    = "uplay"
+$packageName    = "{{PackageName}}"
 $installerType  = "EXE"
 $url            = "{{DownloadUrl}}"
 $silentArgs     = '/S /NCRC'

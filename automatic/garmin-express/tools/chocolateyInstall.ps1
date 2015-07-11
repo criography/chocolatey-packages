@@ -1,4 +1,4 @@
-$packageName    = "garmin-express"
+$packageName    = "{{PackageName}}"
 $installerType  = "EXE"
 $url            = "{{DownloadUrl}}"
 $silentArgs     = '/s /a /s /v"/qb"'

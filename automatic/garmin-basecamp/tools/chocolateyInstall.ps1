@@ -1,4 +1,4 @@
-$packageName    = "garmin-basecamp"
+$packageName    = "{{PackageName}}"
 $driversTitle   = "Garmin` USB` Drivers"
 $installerType  = "msi"
 $url            = "{{DownloadUrl}}"

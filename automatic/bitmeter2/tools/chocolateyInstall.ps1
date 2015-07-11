@@ -1,6 +1,6 @@
 ﻿. (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\helpers.ps1')
 
-$packageName    = "bitmeter2"
+$packageName    = "{{PackageName}}"
 $packageTitle   = "BitMeter2"
 $installerType  = "EXE"
 $packageVersion = "{{PackageVersion}}"
