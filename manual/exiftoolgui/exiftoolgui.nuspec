@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>exiftoolgui</id>
+        <id>{{PackageName}}</id>
         <title>ExifTool GUI</title>
         <version>{{PackageVersion}}</version>
         <authors>Bogdan Hrastnik</authors>
@@ -20,7 +20,7 @@
         <tags>EXIF-viewer EXIF metadata metadata-analyzer photography-data GUI</tags>
         <copyright>Bogdan Hrastnik</copyright>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/automatic/exiftoolgui/icon.png</iconUrl>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/manual/{{PackageName}}/icon.png</iconUrl>
         <releaseNotes>http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0</releaseNotes>
         <dependencies>
             <dependency id="exiftool"/>

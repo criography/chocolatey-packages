@@ -2,7 +2,7 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>svgo-gui</id>
+    <id>{{PackageName}}</id>
     <title>SVGO GUI</title>
     <version>{{PackageVersion}}</version>
     <authors>Marek Lenik</authors>
@@ -16,7 +16,7 @@
     <copyright>Copyright © 2012 Kir Belevich</copyright>
     <licenseUrl>https://raw.githubusercontent.com/svg/svgo-gui/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/automatic/{{PackageName}}/icon.svg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/automatic/{{PackageName}}/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
