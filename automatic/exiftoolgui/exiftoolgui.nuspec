@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>exiftoolgui</id>
+        <title>ExifTool GUI</title>
+        <version>{{PackageVersion}}</version>
+        <authors>Bogdan Hrastnik</authors>
+        <owners>Marek Lenik</owners>
+        <summary>ExifToolGUI is graphical interface developed for the ExifTool software application. It allows you to view the EXIF information of image files.</summary>
+        <description>ExifToolGUI is a tool for viewing/editing metadata inside a long list of file types including document, audio, video, image, PDF, and more. For images, the program can both view and edit metadata information such as camera/device used, settings on the device, and even map the location the picture was taken if the camera has GPS capability. The program also supports IPTC and XMP tags, has batch capability, and can import/export all tags.
+
+            For privacy (and file size), the program can remove all metadata from selected files.
+
+            The program is a front-end for the cross-platform ExifTool (https://chocolatey.org/packages/exiftool).
+
+            If set, ExifTool GUI will install to `%ChocolateyBinRoot%`, otherwise it'll land in `"C:/tools/"`
+        </description>
+        <projectUrl>http://u88.n24.queensu.ca/~bogdan/</projectUrl>
+        <tags>EXIF-viewer EXIF metadata metadata-analyzer photography-data GUI</tags>
+        <copyright>Bogdan Hrastnik</copyright>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/automatic/exiftoolgui/icon.png</iconUrl>
+        <releaseNotes>http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0</releaseNotes>
+        <dependencies>
+            <dependency id="exiftool"/>
+            <dependency id="jhead"/>
+            <dependency id="jpegtran"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>

@@ -25,3 +25,12 @@
 [submodule "automatic/bitmeter2/tools/helpers"]
 	path = automatic/bitmeter2/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/casperjs/tools/helpers"]
+	path = automatic/casperjs/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/exiftoolgui/tools/helpers"]
+	path = automatic/exiftoolgui/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/svgo-gui/tools/helpers"]
+	path = automatic/svgo-gui/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
