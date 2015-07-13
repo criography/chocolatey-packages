@@ -15,6 +15,8 @@
             The program is a front-end for the cross-platform ExifTool (https://chocolatey.org/packages/exiftool).
 
             If set, ExifTool GUI will install to `%ChocolateyBinRoot%`, otherwise it'll land in `"C:/tools/"`
+
+            **Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer
         </description>
         <projectUrl>http://u88.n24.queensu.ca/~bogdan/</projectUrl>
         <tags>EXIF-viewer EXIF metadata metadata-analyzer photography-data GUI</tags>
@@ -23,9 +25,9 @@
         <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.9/manual/{{PackageName}}/icon.png</iconUrl>
         <releaseNotes>http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=2750.0</releaseNotes>
         <dependencies>
-            <dependency id="exiftool"/>
-            <dependency id="jhead"/>
-            <dependency id="jpegtran"/>
+            <dependency id="exiftool" />
+            <dependency id="jhead" />
+            <dependency id="jpegtran" />
         </dependencies>
     </metadata>
     <files>

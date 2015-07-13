@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title>Cheat Engine</title>
-    <version>{{PackageVersion}}</version>
-    <authors>Eric "Dark Byte" Heijnen</authors>
-    <owners>Marek Lenik</owners>
-    <summary>Cheat Engine is an open source memory scanner/hex editor/debugger</summary>
-    <description>Cheat Engine is an open source tool designed to help you with modifying single player games running under window so you can make them harder or easier depending on your preference(e.g: Find that 100hp is too easy, try playing a game with a max of 1 HP), but also contains other usefull tools to help debugging games and even normal applications.
+    <metadata>
+        <id>{{PackageName}}</id>
+        <title>Cheat Engine</title>
+        <version>{{PackageVersion}}</version>
+        <authors>Eric "Dark Byte" Heijnen</authors>
+        <owners>Marek Lenik</owners>
+        <summary>Cheat Engine is an open source memory scanner/hex editor/debugger</summary>
+        <description>Cheat Engine is an open source tool designed to help you with modifying single player games running under window so you can make them harder or easier depending on your preference(e.g: Find that 100hp is too easy, try playing a game with a max of 1 HP), but also contains other usefull tools to help debugging games and even normal applications.
 
-    It comes with a memory scanner to quickly scan for variables used within a game and allow you to change them, but it also comes with a debugger, disassembler, assembler, speedhack, trainer maker, direct 3D manipulation tools, system inspection tools and more.</description>
-    <projectUrl>http://www.cheatengine.org/index.php</projectUrl>
-    <tags>debugger memory-scanner gaming debugging disassembler assembler speedhack trainer system</tags>
-    <copyright>Copyright © 2015 - Eric "Dark Byte" Heijnen</copyright>
-    <licenseUrl>https://code.google.com/p/cheat-engine/source/browse/trunk/Cheat%20Engine/release/License.txt</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.1/automatic/{{PackageName}}/icon.png</iconUrl>
-    <releaseNotes>https://github.com/cheat-engine/cheat-engine/releases</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+            It comes with a memory scanner to quickly scan for variables used within a game and allow you to change them, but it also comes with a debugger, disassembler, assembler, speedhack, trainer maker, direct 3D manipulation tools, system inspection tools and more.
+
+            **Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer
+        </description>
+        <projectUrl>http://www.cheatengine.org/index.php</projectUrl>
+        <tags>debugger memory-scanner gaming debugging disassembler assembler speedhack trainer system</tags>
+        <copyright>Copyright © 2015 - Eric "Dark Byte" Heijnen</copyright>
+        <licenseUrl>https://code.google.com/p/cheat-engine/source/browse/trunk/Cheat%20Engine/release/License.txt</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.1/automatic/{{PackageName}}/icon.png</iconUrl>
+        <releaseNotes>https://github.com/cheat-engine/cheat-engine/releases</releaseNotes>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
 </package>

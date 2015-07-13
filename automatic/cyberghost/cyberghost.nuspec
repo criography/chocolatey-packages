@@ -1,32 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title>CyberGhost</title>
-    <version>{{PackageVersion}}</version>
-    <authors>CyberGhost S.R.L.</authors>
-    <owners>Marek Lenik</owners>
-    <summary>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content.</summary>
-    <description><![CDATA[CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.
+    <metadata>
+        <id>{{PackageName}}</id>
+        <title>CyberGhost</title>
+        <version>{{PackageVersion}}</version>
+        <authors>CyberGhost S.R.L.</authors>
+        <owners>Marek Lenik</owners>
+        <summary>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content.</summary>
+        <description><![CDATA[CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.
 
     Learn more here: http://www.cyberghostvpn.com/en_gb/advantages
 
     It's a commercial, subscription service, with a free, limited version. This package is a client for it.
     For pricing, go to http://www.cyberghostvpn.com/en_gb#buy
+
+    **Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer
     ]]></description>
-    <projectUrl>http://www.cyberghostvpn.com</projectUrl>
-    <tags>anonymous privacy privacy-protection VPN anonymous-browsing</tags>
-    <copyright>© 2015 CyberGhost S.R.L.</copyright>
-    <licenseUrl>http://www.cyberghostvpn.com/en_gb/terms</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.3/automatic/{{PackageName}}/icon.png</iconUrl>
-    <releaseNotes></releaseNotes>
-	  <dependencies>
-		  <dependency id="dotnet3.5" />
-	  </dependencies>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+        <projectUrl>http://www.cyberghostvpn.com</projectUrl>
+        <tags>anonymous privacy privacy-protection VPN anonymous-browsing</tags>
+        <copyright>© 2015 CyberGhost S.R.L.</copyright>
+        <licenseUrl>http://www.cyberghostvpn.com/en_gb/terms</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.3/automatic/{{PackageName}}/icon.png</iconUrl>
+        <releaseNotes></releaseNotes>
+        <dependencies>
+            <dependency id="dotnet3.5" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
 </package>

@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>{{PackageName}}</id>
-    <title>Bitmeter II</title>
-    <version>{{PackageVersion}}</version>
-    <authors>Rob Dawson</authors>
-    <owners>Marek Lenik</owners>
-    <summary>Bitmeter is a bandwidth meter application designed to keep an eye on your download and upload rates, providing a handful of useful statistics via a very user-friendly interface.</summary>
-    <description>BitMeter 2 is a bandwidth meter, it allows you to visually monitor your Internet connection by displaying a scrolling graph that shows your upload and download speed over time. Features include: graphical and numerical displays of historical data, Web interface, alerts, stopwatch, calculator, transparent/float/click-through modes, 36-page help file, audio notifications, configurable color-schemes and many other options.
-    </description>
-    <projectUrl>http://codebox.org.uk/pages/bitmeter2</projectUrl>
-    <tags>monitor-bandwidth monitor-connection bandwidth-monitor bandwidth monitor connection graph system-tray</tags>
-    <copyright>© 2004-2015 Rob Dawson</copyright>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.8/automatic/{{PackageName}}/icon.png</iconUrl>
-    <releaseNotes>http://codebox.org.uk/pages/bitmeter2/changelog</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+    <metadata>
+        <id>{{PackageName}}</id>
+        <title>Bitmeter II</title>
+        <version>{{PackageVersion}}</version>
+        <authors>Rob Dawson</authors>
+        <owners>Marek Lenik</owners>
+        <summary>Bitmeter is a bandwidth meter application designed to keep an eye on your download and upload rates, providing a handful of useful statistics via a very user-friendly interface.</summary>
+        <description>BitMeter 2 is a bandwidth meter, it allows you to visually monitor your Internet connection by displaying a scrolling graph that shows your upload and download speed over time. Features include: graphical and numerical displays of historical data, Web interface, alerts, stopwatch, calculator, transparent/float/click-through modes, 36-page help file, audio notifications, configurable color-schemes and many other options.
+
+            **Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer
+        </description>
+        <projectUrl>http://codebox.org.uk/pages/bitmeter2</projectUrl>
+        <tags>monitor-bandwidth monitor-connection bandwidth-monitor bandwidth monitor connection graph system-tray</tags>
+        <copyright>© 2004-2015 Rob Dawson</copyright>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.8/automatic/{{PackageName}}/icon.png</iconUrl>
+        <releaseNotes>http://codebox.org.uk/pages/bitmeter2/changelog</releaseNotes>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
 </package>
