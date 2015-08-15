@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Avira Antivirus Pro</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Avira</authors>
+    <owners>Marek Lenik</owners>
+    <summary>With complete protection from viruses, identity theft and financial loss, this practical and useful antivirus suite is a reliable solution for the security conscientious user</summary>
+    <description>Avira's NEW Antivirus Pro is built upon some of the most powerful security technologies in the world. Combining advanced heuristics with the power of cloud computing, we make sure that you have the strongest protection possible. But you don't have to take our word for it, Avira's antivirus technology is trusted by millions of users and consistently earns the praise of independent reviewing platforms.
+
+      Antivirus from the experts. Additional features are nice, but antivirus is what we do best. Rest assured that you'll be protected by some of the most cutting-edge antivirus technologies available. Period.
+      Advanced Real-Time Protection -- With Avira Protection Cloud detection technology
+      Enhanced Network Drive Protection -- Malware scanning for shared folders
+      AntiAd/Spyware -- Shuts out online spies and annoying adware
+      Website Safety Advisor  -- Rates the safety of all sites in your search results
+      Advanced Web Protection -- Intercepts malicious websites before they load
+      Browser Tracking Blocker -- Stops companies from recording your web activities
+    </description>
+    <projectUrl>https://www.avira.com/en/avira-antivirus-pro</projectUrl>
+    <tags>antivirus-protection virus-scanner malware-protection antivirus scanner antispam mailguard protection security</tags>
+    <copyright>© 2015 Avira Operations GmbH &amp; Co. KG. All rights reserved.</copyright>
+    <licenseUrl>https://www.avira.com/en/legal-terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes>https://www.avira.com/en/support-for-home-knowledgebase-detail/kbid/1699</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

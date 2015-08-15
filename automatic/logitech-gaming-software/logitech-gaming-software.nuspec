@@ -16,11 +16,11 @@
 
       These included third party software components provide key functionality to Logitech Gaming Software and are included in the software installation package.</description>
     <projectUrl>http://support.logitech.com/software/gaming-software</projectUrl>
-    <tags>Logitech game controller custom controller game control game controller profile button axis</tags>
+    <tags>logitech-game-controller custom-controller game-control game-controller logitech-drivers drivers</tags>
     <copyright>© 2015 Logitech. All rights reserved</copyright>
     <licenseUrl>http://www.logitech.com/en-us/footer/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.10/automatic/{{PackageName}}/icon.jpg</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.10/automatic/{{PackageName}}/icon.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>

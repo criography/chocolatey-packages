@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Outpost Firewall Pro</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Agnitum Ltd.</authors>
+    <owners>Marek Lenik</owners>
+    <summary>A two-way firewall providing proactive protection against unknown or zero-day threats and web control that can block both advertisements and web-borne threats</summary>
+    <description>
+      *Outpost Firewall Pro:*
+      • Keeps ports closed: Outpost keeps the main ports shut to prevent unsafe connections.
+      • Blocks incoming targeted attacks : Outpost defends your online privacy against hackers and targeted attacks with a tailored attack detection module.
+      • Prevents “calling home”: Outpost filters outbound traffic and prevents malware from “calling home”, or transmitting your data to hackers.
+      • Makes PCs invisible: Outpost runs in stealth mode, so your PC appears offline to hackers and can’t respond to potentially harmful requests.
+      • Keeps your private information private: Outpost makes sure there are no data leaks, so your files - documents, photos, videos, emails, and more - remain protected.
+      • Forget freezes and slowdowns: Outpost stands for "quiet" protection for your PC, undemanding on computer resources. Outpost does its job and doesn't slow your system down.
+
+
+      *What’s in Outpost Firewall Pro?*
+      • Firewall: Safeguards your PC against hackers and data leaks.
+      • Attack Detection: Prevents targeted attacks from local networks and the Internet.
+      • Proactive Protection: Blocks new and sophisticated malware before your antivirus can identify it.
+      • System and Application Guard: Secures IDs and passwords used with most popular applications against unauthorized access. Protects key system settings and program data from misuse.
+      • Self-protection against malware: Outpost is equipped with proven self-protection against deactivation by malware.
+      • System Monitor: Advanced activity monitoring shows real-time program activity and connection status.
+    </description>
+    <projectUrl>http://www.agnitum.com/outpost-firewall-pro.php</projectUrl>
+    <tags>hacker protection firewall protection attack shield firewall protect scanner block </tags>
+    <copyright>© 1999-2015, Agnitum Ltd.</copyright>
+    <licenseUrl>http://www.agnitum.com/terms.php</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes>http://www.agnitum.com/support/kb/article.php?id=1000215</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
