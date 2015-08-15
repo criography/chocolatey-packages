@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <version>1.0.0-alpha10</version>
+    <title>Composer</title>
+    <authors>Ludovic Meyer</authors>
+    <owners>Nils Adermann, Jordi Boggiano</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://getcomposer.org/</projectUrl>
+    <iconUrl>https://getcomposer.org/img/logo-composer-transparent.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stak everywhere.</description>
+    <summary>Composer - Dependency Management for PHP</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>php, dependency, chocolatey</tags>
+  </metadata>
+</package>

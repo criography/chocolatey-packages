@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Daemon Tools Lite</title>
+    <version>{{PackageVersion}}</version>
+    <authors>DAEMON Tools</authors>
+    <owners>DAEMON Tools</owners>
+    <summary>Virtual disc emulation tool that helps you create up to 4 virtual drives, mount and unmount images, and generate image files from device contents, while offering support for RMPS, SafeDisc, SecuROM and LaserLock</summary>
+    <description>DAEMON Tools Lite is a reliable application that creates virtual drives on your computer, providing you with the possibility to emulate CDs and DVDs for instant access. Supported file formats
+
+      DAEMON Tools works with the most popular formats, including CCD (CloneCD), BWT (Blindwrite), MDS (Media Descriptor File), CDI (Discjuggler), NRG (Nero), PDI (Instant CD/DVD), B5T (BlindWrite 5), CUE/BIN, ISO and ISZ.
+
+      On the other hand, those of you who wish to mount image files created by Ultra ISO, Magic ISO and Power ISO won't be able to use DAEMON Tools Lite.
+
+      The application sits quietly in the System Tray, allowing you to quickly change settings and load disc image files without launching the main window.
+
+      In case you need to create disc images, DAEMON Tools Lite allows you to generate ISO, MDS, MDF as well as MDX files and thus keep the contents of Blu-ray discs, DVDs or simple CDs.
+
+      This utility can create up to 4 virtual drives and this should be enough for the average user. In addition, the program works with most CD and DVD-ROM drives and has the ability to load almost any image, no matter its protection, be it Securom, Safedisc or Laselock.
+
+      DAEMON Tools Lite is a software solution that will impress you, especially thanks to its advanced features that can deal with virtually all image formats on the market.</description>
+    <projectUrl>https://www.daemon-tools.cc/products/dtLite</projectUrl>
+    <tags>virtual-dvd virtual-cd drive-emulation emulation virtual emulate mount iso virtual-disk cd-emulator dvd-emulator</tags>
+    <copyright>© 2008 - 2015 DAEMON Tools.</copyright>
+    <licenseUrl>https://www.daemon-tools.cc/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <releaseNotes>http://www.softpedia.com/progChangelog/DAEMON-Tools-Changelog-5319.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

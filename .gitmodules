@@ -4,9 +4,6 @@
 [submodule "automatic/color-quantizer/tools/helpers"]
 	path = automatic/color-quantizer/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
-[submodule "automatic/garmin-express/tools/helpers"]
-	path = automatic/garmin-express/tools/helpers
-	url = git@github.com:criography/chocolatey-helpers.git
 [submodule "automatic/garmin-basecamp/tools/helpers"]
 	path = automatic/garmin-basecamp/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
@@ -33,4 +30,7 @@
 	url = git@github.com:criography/chocolatey-helpers.git
 [submodule "automatic/exiftoolgui.internal/tools/helpers"]
 	path = automatic/exiftoolgui.internal/tools/helpers
+	url = git@github.com:criography/chocolatey-helpers.git
+[submodule "automatic/daemontoolslite.internal/tools/helpers"]
+	path = automatic/daemontoolslite.internal/tools/helpers
 	url = git@github.com:criography/chocolatey-helpers.git
