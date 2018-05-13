@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>cyberghost</id>
+        <title>CyberGhost VPN</title>
+        <version>6.5.2.31</version>
+        <authors>CyberGhost S.A.</authors>
+        <owners>criography</owners>
+        <summary>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content.</summary>
+        <description>CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.
+
+It's a commercial, subscription service, with a free, limited version. This package is a client for it. For pricing, go to http://www.cyberghostvpn.com/en_gb#buy
+
+**Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer</description>
+        <projectUrl>http://www.cyberghostvpn.com</projectUrl>
+        <tags>anonymous privacy privacy-protection VPN anonymous-browsing security notsilent</tags>
+        <copyright>Copyright © 2018 CyberGhost S.A.</copyright>
+        <licenseUrl>https://www.cyberghostvpn.com/en_GB/terms</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/cyberghost/icon.png</iconUrl>
+        <releaseNotes></releaseNotes>
+        <dependencies>
+            <dependency id="autohotkey" />
+        </dependencies>
+        <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/cyberghost</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
