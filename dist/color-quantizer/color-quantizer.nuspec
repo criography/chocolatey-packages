@@ -15,7 +15,7 @@
         <tags>png compression image-optimisation image-processing batch-processing png-optimization</tags>
         <copyright>x128 © 2009</copyright>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/color-quantizer/icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/color-quantizer/icon.png</iconUrl>
         <releaseNotes></releaseNotes>
         <dependencies></dependencies>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/color-quantizer</packageSourceUrl>

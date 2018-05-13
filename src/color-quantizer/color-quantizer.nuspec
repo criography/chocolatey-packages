@@ -13,7 +13,7 @@
         <tags>{{tags}}</tags>
         <copyright>{{copyright}}</copyright>
         <requireLicenseAcceptance>{{licenceRequired}}</requireLicenseAcceptance>
-        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/{{slug}}/icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/{{slug}}/icon.png</iconUrl>
         <releaseNotes>{{releaseNotes}}</releaseNotes>
         <dependencies>{{dependencies}}</dependencies>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/{{slug}}</packageSourceUrl>
