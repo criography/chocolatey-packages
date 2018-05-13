@@ -1,0 +1,20 @@
+{
+    "slug"            : "xyplorer",
+    "title"           : "XYplorer (Install)",
+    "authors"         : "Donald Lessau",
+    "url"             : "http://www.xyplorer.com",
+    "tags"            : "file-manager file-management dual-panel explorer",
+    "copyright"       : "Copyright © 1997-2015 by Donald Lessau",
+    "licence"         : "http://www.xyplorer.com/LicenseXY.txt",
+    "licenceRequired" : true,
+    "releaseNotes"    : "http://www.xyplorer.com/whatsnew.php#current",
+    "dependencies"    : [],
+    "summary"         : "XYplorer is a file manager for Windows.",
+    "description"     : [
+        "XYplorer is a file manager for Windows. It features tabbed browsing, a powerful file search, a versatile preview, a highly customizable interface, optional dual pane, and a large array of unique ways to efficiently automate frequently recurring tasks. It's fast and light, it's innovative, and it's portable.",
+
+        "This is a commercial product, with a 30 day trial. For pricing go to: http://www.xyplorer.com/#buy",
+
+        "**Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer updating correctly."
+    ]
+}

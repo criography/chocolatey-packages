@@ -1,0 +1,20 @@
+{
+    "slug"           : "cyberghost",
+    "title"          : "CyberGhost VPN",
+    "authors"        : "CyberGhost S.A.",
+    "url"            : "http://www.cyberghostvpn.com",
+    "tags"           : "anonymous privacy privacy-protection VPN anonymous-browsing security notsilent",
+    "copyright"      : "Copyright © 2018 CyberGhost S.A.",
+    "licence"        : "https://www.cyberghostvpn.com/en_GB/terms",
+    "licenceRequired": true,
+    "releaseNotes"   : "",
+    "dependencies"   : ["autohotkey"],
+    "summary"        : "CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content.",
+    "description"    : [
+        "CyberGhost is a VPN service; it's a fast, simple and efficient way to protect your online privacy, surf anonymously and access blocked or censored content. It offers top-notch security and anonymity without being complicated to use or slowing down your internet connection.",
+
+       "It's a commercial, subscription service, with a free, limited version. This package is a client for it. For pricing, go to http://www.cyberghostvpn.com/en_gb#buy",
+
+        "**Please Note**: This is an automatically updated package. If you find it is out of date by more than a day or two, please contact the maintainer(s) and let them know the package is no longer"
+    ]
+}

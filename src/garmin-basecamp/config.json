@@ -1,0 +1,20 @@
+{
+    "slug"           : "garmin-basecamp",
+    "title"          : "Garmin Basecamp",
+    "authors"        : "Garmin Ltd.",
+    "url"            : "http://www.garmin.com/en-GB/shop/downloads/basecamp",
+    "tags"           : "garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging",
+    "copyright"      : "Copyright © 1996-2015 Garmin Ltd.",
+    "licence"        : "https://developer.garmin.com/apps/BaseCamp/eula/en.txt",
+    "licenceRequired": true,
+    "releaseNotes"   : "https://www8.garmin.com/support/download_details.jsp?id=4435",
+    "dependencies"   : [],
+    "summary"        : "Garmin BaseCamp is a map viewing / GIS software package primarily intended for use with Garmin GPS navigation devices.",
+    "description"    : [
+        "Garmin BaseCamp is a useful tool for the users who plan routes and view maps on their computer. The program is designed to work with Garmin maps and can greatly enhance the usage of a Garmin GPS device.",
+
+        "It's designed to work with your Garmin maps in order to survey the area and plan your trip by taking into consideration all the locations that you want to visit. It allows you to plan a driving route but also supports hiking, mountaineering, dirt biking and other activities.",
+
+        "The program integrates the Garmin Adventures feature which enables you to share routes and comments with other users. You can also use the program to download satellite imagery from the Internet in order to add them to the maps installed on your device."
+    ]
+}
