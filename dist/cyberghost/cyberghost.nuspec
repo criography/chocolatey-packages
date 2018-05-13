@@ -18,7 +18,7 @@ It's a commercial, subscription service, with a free, limited version. This pack
         <copyright>Copyright © 2018 CyberGhost S.A.</copyright>
         <licenseUrl>https://www.cyberghostvpn.com/en_GB/terms</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/cyberghost/icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/cyberghost/icon.png</iconUrl>
         <releaseNotes></releaseNotes>
         <dependencies>
             <dependency id="autohotkey" />

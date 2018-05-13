@@ -18,7 +18,7 @@ This is a commercial product, with a 30 day trial. This package is for a Standar
         <copyright>Copyright © 2015 H.D.S. Hungary. All Rights Reserved.</copyright>
         <licenseUrl>http://www.hdsentinel.com/eula.php</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/hdsentinel/icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/hdsentinel/icon.png</iconUrl>
         <releaseNotes>http://www.hdsentinel.com/revision.php</releaseNotes>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/hdsentinel</packageSourceUrl>
     </metadata>
