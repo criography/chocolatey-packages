@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>{{slug}}</id>
+        <title>{{title}}</title>
+        <version>{{version}}</version>
+        <authors>{{authors}}</authors>
+        <owners>criography</owners>
+        <summary>{{summary}}</summary>
+        <description>{{description}}</description>
+        <projectUrl>{{url}}</projectUrl>
+        <tags>{{tags}}</tags>
+        <copyright>{{copyright}}</copyright>
+        <licenseUrl>{{licence}}</licenseUrl>
+        <requireLicenseAcceptance>{{licenceRequired}}</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/{{slug}}/icon.png</iconUrl>
+        <releaseNotes>{{releaseNotes}}</releaseNotes>
+        <dependencies>{{dependencies}}</dependencies>
+        <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/{{slug}}</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>

@@ -1,0 +1,14 @@
+{
+    "slug"           : "{{slug}}",
+    "title"          : "",
+    "authors"        : "",
+    "url"            : "",
+    "tags"           : "",
+    "copyright"      : "",
+    "licence"        : "",
+    "licenceRequired": true,
+    "releaseNotes"   : "",
+    "dependencies"   : [],
+    "summary"        : "",
+    "description"    : ""
+}

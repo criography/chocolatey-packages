@@ -1,14 +1,16 @@
-# Chocolatey Packages
+package slugs must be the same as containing folders!
+```
 
-## Resources ##
-https://github.com/chocolatey/choco/wiki  
-http://unattended.sourceforge.net/installers.php  
-http://www.migee.com/2010/09/24/solution-for-unattendedsilent-installs-and-would-you-like-to-install-this-device-software/  
-http://wpkg.org/index.php?title=Category:Silent_Installers&pagefrom=FlashShock
-http://appsnap.googlecode.com/svn/trunk/appsnap/db.ini
-https://msdn.microsoft.com/en-us/library/aa372024%28v=vs.85%29.aspx
+{
+    // package identifier [a-z0-9-_.]
+    slug           : 'xyplorer.install',
+
+    // display human-friendly title
+    title          : 'XYplorer (install)',
+
+};
+
+```
 
 
-## Handy shorthands ##
-1. to test locally with dependencies:
-choco install {{name}} -fdv -source "'$pwd;https://chocolatey.org/api/v2/'"
+require `choco install checksum`
