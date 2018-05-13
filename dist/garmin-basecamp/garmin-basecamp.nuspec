@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>garmin-basecamp</id>
+        <title>Garmin Basecamp</title>
+        <version>4.6.2</version>
+        <authors>Garmin Ltd.</authors>
+        <owners>criography</owners>
+        <summary>Garmin BaseCamp is a map viewing / GIS software package primarily intended for use with Garmin GPS navigation devices.</summary>
+        <description>Garmin BaseCamp is a useful tool for the users who plan routes and view maps on their computer. The program is designed to work with Garmin maps and can greatly enhance the usage of a Garmin GPS device.
+
+It's designed to work with your Garmin maps in order to survey the area and plan your trip by taking into consideration all the locations that you want to visit. It allows you to plan a driving route but also supports hiking, mountaineering, dirt biking and other activities.
+
+The program integrates the Garmin Adventures feature which enables you to share routes and comments with other users. You can also use the program to download satellite imagery from the Internet in order to add them to the maps installed on your device.</description>
+        <projectUrl>http://www.garmin.com/en-GB/shop/downloads/basecamp</projectUrl>
+        <tags>garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging</tags>
+        <copyright>Copyright © 1996-2015 Garmin Ltd.</copyright>
+        <licenseUrl>https://developer.garmin.com/apps/BaseCamp/eula/en.txt</licenseUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/v1.0/automatic/garmin-basecamp/icon.png</iconUrl>
+        <releaseNotes>https://www8.garmin.com/support/download_details.jsp?id=4435</releaseNotes>
+        <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/garmin-basecamp</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>
+
