@@ -1,3 +1,2 @@
-/.cache
-/dist
 !/.choco
+/node-modules
