@@ -9,7 +9,7 @@ $packageVersion = "5.20"
 $url            = "http://www.harddisksentinel.com/hdsentinel_setup.zip"
 $silentArgs     = "/sp- /verysilent /norestart"
 $checksum       = "e30719e5ace00963c466c7bf2ada93bccfd32c87a2337a5857a6d12bc3f9f68a"
-$checksumType   = ""
+$checksumType   = "sha256"
 $validExitCodes = @(0)
 
 
@@ -39,12 +39,12 @@ Get-ChocolateyWebFile  `
 # extract it
 Get-ChocolateyUnzip `
   -FileFullPath $pathToZip `
-  -Destination $tempPath
+  -Destination $tmpDir
 
 
 
 # establish path to extracted installer (exe)
-$pathToExe =  Join-Path $tempPath (get-childitem $tempPath | where {$_.extension -eq ".exe"}).Name
+$pathToExe =  Join-Path $tmpDir (get-childitem $tmpDir | where {$_.extension -eq ".exe"}).Name
 
 
 

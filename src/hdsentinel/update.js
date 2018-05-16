@@ -5,7 +5,8 @@ const getChecksum = require('../../.choco/scripts/helpers/getChecksum');
 const data = {
     downloadUrl : 'http://www.harddisksentinel.com/hdsentinel_setup.zip',
     checksum    : false,
-    version     : false
+    version     : false,
+    checksumType:'sha256'
 };
 
 

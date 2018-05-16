@@ -39,12 +39,12 @@ Get-ChocolateyWebFile  `
 # extract it
 Get-ChocolateyUnzip `
   -FileFullPath $pathToZip `
-  -Destination $tempPath
+  -Destination $tmpDir
 
 
 
 # establish path to extracted installer (exe)
-$pathToExe =  Join-Path $tempPath (get-childitem $tempPath | where {$_.extension -eq ".exe"}).Name
+$pathToExe =  Join-Path $tmpDir (get-childitem $tmpDir | where {$_.extension -eq ".exe"}).Name
 
 
 

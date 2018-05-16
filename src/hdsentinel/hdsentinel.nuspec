@@ -14,7 +14,7 @@
         <copyright>{{copyright}}</copyright>
         <licenseUrl>{{licence}}</licenseUrl>
         <requireLicenseAcceptance>{{licenceRequired}}</requireLicenseAcceptance>
-        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/{{slug}}/icon.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/{{slug}}/icon.jpg</iconUrl>
         <releaseNotes>{{releaseNotes}}</releaseNotes>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/{{slug}}</packageSourceUrl>
     </metadata>
