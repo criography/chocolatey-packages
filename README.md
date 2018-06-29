@@ -16,7 +16,7 @@
 1. Ensure clean Windows installation in VirtualBox or similar
 1. Ensure the `dist` folder is shared
 1. cd to the package's directory inside `dist` 
-1. from terminal run `cpack && cinst {packageName} -dfv -s .` to package up the source and install from it.
+1. from terminal run `cpack && cinst {packageName} -dfv -s "'.;chocolatey'"` to package up the source and install from it.
 
 
 ## Publishing
