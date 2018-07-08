@@ -1,0 +1,16 @@
+{
+    "slug"           : "figma",
+    "title"          : "Figma",
+    "authors"        : "Figma, Inc.",
+    "url"            : "https://www.figma.com",
+    "tags"           : "design web-design ui ui-design sketch vector cross-platform",
+    "copyright"      : "Copyright © 2018 Figma, Inc.",
+    "licence"        : "https://www.figma.com/summary-of-policy/",
+    "licenceRequired": true,
+    "releaseNotes"   : "https://releases.figma.com/",
+    "dependencies"   : [],
+    "summary"        : "Figma is the first collaborative UI design tool built in the browser.",
+    "description"    : [
+        "[Features](https://www.figma.com/features/)"
+    ]
+}
