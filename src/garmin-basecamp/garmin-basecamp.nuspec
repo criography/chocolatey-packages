@@ -17,6 +17,9 @@
         <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/{{slug}}/icon.png</iconUrl>
         <releaseNotes>{{releaseNotes}}</releaseNotes>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/{{slug}}</packageSourceUrl>
+        <dependencies>
+            <dependency id="dotnet4.6.1" version="4.6.01055.20170308" />
+        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
