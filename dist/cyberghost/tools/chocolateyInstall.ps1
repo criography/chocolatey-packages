@@ -1,4 +1,6 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿. (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'helpers\ImportCertificate.ps1')
+
+$ErrorActionPreference = 'Stop'; # stop on all errors
 
 $packageName    = "cyberghost"
 $windowTitle    = "CyberGhost"
@@ -8,6 +10,17 @@ $url            = "https://www.cyberghostvpn.com/download/cgsetup_en.exe"
 $validExitCodes = @(0)
 $checksum       = "ee1bba75f9ec155d41bb096ce5a6cd3bbbb00718186bfa7b56c4ff656349d5db"
 $checksumType   = "sha256"
+$certPath       = (Join-Path (Split-Path -parent $MyInvocation.MyCommand.Definition) 'openvpn-technologies-inc.cer')
+
+Echo $certPath
+
+
+# Preinstal openvpn certificate
+Import-Certificate `
+    -CertFile       "$certPath" `
+    -StoreNames     trustedpublisher `
+    -LocalMachine
+
 
 
 # Set up AHK script

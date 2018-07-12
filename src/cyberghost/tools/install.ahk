@@ -1,29 +1,40 @@
 #NoEnv
 #NoTrayIcon
-SendMode Input
-SetControlDelay -1
-CoordMode, Mouse, Window
 SetTitleMatchMode RegEx
 
 
-steps := [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-WinWaitActive, Setup - CyberGhost 6.*
-    for each, value in steps {
-        Sleep, 500
+
+; initiate first listener
+WinWaitActive, Setup - CyberGhost \d.*
+    ProceedOnInstaller()
+
+
+
+
+; Proceed on webinstaller's prompt
+ProceedOnInstaller()
+{
+    IfWinExist
+    {
         ControlSend, , {Tab}{Tab}{Space}
+        sleep, 100
+        ProceedOnInstaller()
+
+    } else {
+        KillAll()
+
     }
+}
 
 
-WinWait, ^CyberGhost.*
-    WinKill
 
 
-Process, close, CyberGhost.exe
-Process, close, CyberGhost
-Process, close, cg.exe
-Process, close, cgsetup.*
+; Kill all autospawning windows and processes
+KillAll(){
+    WinWait, ^CyberGhost.*
+        WinKill
+        Process, Close, CyberGhost.exe
+        Process, Close, cg.exe
+}
 
-
-WinWait, ^CyberGhost.*
-    WinKill
