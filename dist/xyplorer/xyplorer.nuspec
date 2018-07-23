@@ -4,7 +4,7 @@
     <metadata>
         <id>xyplorer</id>
         <title>XYplorer (Install)</title>
-        <version>19.10.0000</version>
+        <version>19.10.0100</version>
         <authors>Donald Lessau</authors>
         <owners>criography</owners>
         <summary>XYplorer is a file manager for Windows.</summary>
@@ -18,7 +18,7 @@ This is a commercial product, with a 30 day trial. For pricing go to: http://www
         <copyright>Copyright © 1997-2015 by Donald Lessau</copyright>
         <licenseUrl>http://www.xyplorer.com/LicenseXY.txt</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/xyplorer/icon.png</iconUrl>
+        <iconUrl>https://cdn.rawgit.com/criography/chocolatey-packages/ba4ee9a1/src/xyplorer/icon.png</iconUrl>
         <releaseNotes>http://www.xyplorer.com/whatsnew.php#current</releaseNotes>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/xyplorer</packageSourceUrl>
     </metadata>
