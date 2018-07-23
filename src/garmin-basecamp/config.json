@@ -4,7 +4,7 @@
     "authors"        : "Garmin Ltd.",
     "url"            : "http://www.garmin.com/en-GB/shop/downloads/basecamp",
     "tags"           : "garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging",
-    "copyright"      : "Copyright © 1996-2015 Garmin Ltd.",
+    "copyright"      : "Copyright © 1996 Garmin Ltd.",
     "licence"        : "https://developer.garmin.com/apps/BaseCamp/eula/en.txt",
     "licenceRequired": true,
     "releaseNotes"   : "https://www8.garmin.com/support/download_details.jsp?id=4435",
