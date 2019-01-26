@@ -2,7 +2,7 @@ const fs                = require('fs');
 const {resolve, join}   = require('path');
 const request           = require('request');
 const progress          = require('request-progress');
-const ProgressBar       = require('ascii-progress');
+//const ProgressBar       = require('ascii-progress');
 const mkdirp            = require('mkdirp-promise');
 const hasha             = require('hasha');
 
@@ -32,14 +32,14 @@ const getChecksum = async ({slug, version, url, ext}) => {
         progress(request(url))
 
             .on('progress', (state) => {
-                if(!bar) {
+/*                if(!bar) {
                     bar = new ProgressBar( {
                         schema    : ' Downloading.green [:bar.yellow] :percent :etas',
                         fixedWidth: 1
                     } );
                 }
 
-                bar.update( state.size.transferred / state.size.total );
+                bar.update( state.size.transferred / state.size.total );*/
             })
 
 
@@ -49,8 +49,8 @@ const getChecksum = async ({slug, version, url, ext}) => {
 
 
             .on('end', () => {
-                bar.setSchema(' Downloaded.green  [:bar.green] :percent.green :etas.green');
-                bar.update(1);
+/*                bar.setSchema(' Downloaded.green  [:bar.green] :percent.green :etas.green');
+                bar.update(1);*/
                 resolve();
             })
 
