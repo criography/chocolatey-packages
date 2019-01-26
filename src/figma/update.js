@@ -5,7 +5,7 @@ const getChecksum = require('../../.choco/scripts/helpers/getChecksum');
 
 const data = {
     downloadUrl  : 'https://www.figma.com/download/desktop/win',
-    version      : '3.6.15',
+    version      : '68.0.5',
     checksum     : false,
     checksumType : 'sha256'
 };
