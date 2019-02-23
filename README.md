@@ -9,8 +9,7 @@
 1. Edit whatever goes in `tools` dir
 
 ## Update build of a package
-1. `yarn build {package_slug}`
-1. `cpack && cpush` from the `./dist/{package_slug}`
+1. `yarn update {package_slug}`
 
 ## Testing locally
 1. Ensure clean Windows installation in VirtualBox or similar

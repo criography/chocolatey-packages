@@ -1,6 +1,6 @@
 const fetch       = require('node-fetch');
 const {basename}  = require('path');
-const getChecksum = require('../../.choco/scripts/helpers/getChecksum');
+const getChecksum = require('../../src/scripts/helpers/getChecksum');
 
 const data = {
     downloadUrl : 'http://www.harddisksentinel.com/hdsentinel_setup.zip',

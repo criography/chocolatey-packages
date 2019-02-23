@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node ./.choco/scripts/BuildManager/index.js",
-    "new": "node ./.choco/scripts/Creator/index.js",
+    "update": "sh ./.scripts/updatePackage.sh",
+    "build": "node ./src/scripts/BuildManager/index.js",
+    "new": "node ./src/scripts/Creator/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
