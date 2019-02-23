@@ -15,7 +15,7 @@ It's designed to work with your Garmin maps in order to survey the area and plan
 The program integrates the Garmin Adventures feature which enables you to share routes and comments with other users. You can also use the program to download satellite imagery from the Internet in order to add them to the maps installed on your device.</description>
         <projectUrl>http://www.garmin.com/en-GB/shop/downloads/basecamp</projectUrl>
         <tags>garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging</tags>
-        <copyright>Copyright © 1996-2015 Garmin Ltd.</copyright>
+        <copyright>Copyright © 1996- Garmin Ltd.</copyright>
         <licenseUrl>https://developer.garmin.com/apps/BaseCamp/eula/en.txt</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/garmin-basecamp/icon.png</iconUrl>

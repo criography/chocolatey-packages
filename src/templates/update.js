@@ -1,7 +1,6 @@
 const fetch       = require('node-fetch');
 const {basename}  = require('path');
-const getChecksum = require('../../.choco/scripts/helpers/getChecksum');
-
+const getChecksum = require('../scripts/helpers/getChecksum');
 
 
 const data = {
@@ -12,20 +11,21 @@ const data = {
 };
 
 
-module.exports = fetch('http://x128.ho.ua/color-quantizer.html')
+module.exports = fetch('')
     .then(response => response.text())
 
     // extract vars and return them all
     .then(async text => {
-        const extraction = text.match(/Download" href="(http.*?\.zip)".*? ([\d.]*?) /i);
-        data.downloadUrl = extraction[1];
-        data.version     = extraction[2];
-
+        data.downloadUrl = text.match(//i)[1];
+        data.version     = text.match(//i)[1];
         data.checksum    = await getChecksum({
             slug   : basename(__dirname),
             version: data.version,
-            url    : data.downloadUrl
+            url    : data.downloadUrl,
+            ext    : false
         });
+
+        console.log(data);
 
         return data;
     });
