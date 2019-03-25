@@ -57,7 +57,7 @@ class BuildManager {
                     )
                 );
 
-                process.exit();
+                process.exit(1);
             }
 
 
