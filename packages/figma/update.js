@@ -5,7 +5,7 @@ const getChecksum = require('../../src/scripts/helpers/getChecksum');
 
 const data = {
     downloadUrl  : 'https://www.figma.com/download/desktop/win',
-    version      : '70.0.7',
+    version      : '71.0.4',
     checksum     : false,
     checksumType : 'sha256'
 };
