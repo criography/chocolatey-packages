@@ -2,11 +2,11 @@
 
 $packageName    = "xyplorer"
 $installerType  = "EXE"
-$packageVersion = "20.10.0000"
+$packageVersion = "20.20.0000"
 $url            = "https://www.xyplorer.com/download/xyplorer_full.zip"
 $silentArgs     = "/S"
 $validExitCodes = @(0)
-$checksum       = "a1174a2df57ee0c78b1dbd068c26753a2f2597bd29e513b26569f8661f35143f"
+$checksum       = "1abd553ad5cb845b8745142e6094341594755494246ecebd18671f745f08c871"
 $checksumType   = "sha256"
 
 
