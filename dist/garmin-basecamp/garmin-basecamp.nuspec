@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
@@ -15,14 +15,14 @@ It's designed to work with your Garmin maps in order to survey the area and plan
 The program integrates the Garmin Adventures feature which enables you to share routes and comments with other users. You can also use the program to download satellite imagery from the Internet in order to add them to the maps installed on your device.</description>
         <projectUrl>http://www.garmin.com/en-GB/shop/downloads/basecamp</projectUrl>
         <tags>garmin map-viewer geographic-data adventure gps gpx trip-panner geotagging</tags>
-        <copyright>Copyright © 1996- Garmin Ltd.</copyright>
+        <copyright>Copyright © 1996 Garmin Ltd.</copyright>
         <licenseUrl>https://developer.garmin.com/apps/BaseCamp/eula/en.txt</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <iconUrl>https://raw.githubusercontent.com/criography/chocolatey-packages/v2.0/src/garmin-basecamp/icon.png</iconUrl>
+        <iconUrl>https://cdn.jsdelivr.net/gh/criography/chocolatey-packages@2.1.0/packages/garmin-basecamp/icon.png</iconUrl>
         <releaseNotes>https://www8.garmin.com/support/download_details.jsp?id=4435</releaseNotes>
         <packageSourceUrl>https://github.com/criography/chocolatey-packages/tree/master/dist/garmin-basecamp</packageSourceUrl>
         <dependencies>
-            <dependency id="dotnet4.6.1" />
+            <dependency id="dotnet4.6.1" version="4.6.01055.20170308" />
         </dependencies>
     </metadata>
     <files>

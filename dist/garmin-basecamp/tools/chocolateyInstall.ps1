@@ -6,7 +6,7 @@ $packageVersion = "4.7.0"
 $url            = "http://download.garmin.com/software/BaseCamp_470.exe"
 $silentArgs     = "/quiet"
 $validExitCodes = @(0)
-$checksum       = "a51931fbdf85e4308b659bdda25c5e39767214bcd531f712703ba291b7509b06"
+$checksum       = "257a272dee017ead646fc27ad297be2ee74c97880b80a1c279a3a95b5c57474b"
 $checksumType   = "sha256"
 
 
