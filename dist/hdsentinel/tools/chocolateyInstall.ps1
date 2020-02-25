@@ -5,10 +5,10 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 $packageName    = "hdsentinel"
 $packageTitle   = "HDSentinel"
 $installerType  = "EXE"
-$packageVersion = "5.50"
+$packageVersion = "5.60"
 $url            = "https://www.harddisksentinel.com/hdsentinel_setup.zip"
 $silentArgs     = "/sp- /verysilent /norestart"
-$checksum       = "a10ad687c9349161e8693f969d8891d6b819f47b35bed76b60e65c53b4449315"
+$checksum       = "d7005e4fc938b6166bf1d7b5fcccbae7ec22aa6e47a36909b6871dadb0d5eba8"
 $checksumType   = "sha256"
 $validExitCodes = @(0)
 
