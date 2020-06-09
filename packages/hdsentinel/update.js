@@ -3,7 +3,7 @@ const {basename}  = require('path');
 const getChecksum = require('../../src/scripts/helpers/getChecksum');
 const https       = require("https");
 const data        = {
-    downloadUrl  : 'https://www.harddisksentinel.com/hdsentinel_setup.zip',
+    downloadUrl  : 'http://www.harddisksentinel.com/hdsentinel_setup.zip',
     checksum     : false,
     version      : false,
     checksumType : 'sha256'
