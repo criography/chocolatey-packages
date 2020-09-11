@@ -17,7 +17,7 @@
     "handlebars": "4.7.3",
     "hasha": "^5.0.0",
     "mkdirp-promise": "5.0.1",
-    "node-fetch": "2.6.0",
+    "node-fetch": "2.6.1",
     "node-progress-bars": "^1.0.8",
     "recursive-copy": "^2.0.10",
     "request": "^2.88.0",
