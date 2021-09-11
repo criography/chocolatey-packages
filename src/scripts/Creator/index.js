@@ -1,7 +1,7 @@
 const fs                = require('fs');
 const {join, resolve}   = require('path');
 const rmfr              = require('rmfr');
-const mkdirp            = require('mkdirp-promise');
+const mkdirp            = require('mkdirp');
 const rcopy             = require('recursive-copy');
 const through           = require('through');
 const {renderString}    = require('template-file');

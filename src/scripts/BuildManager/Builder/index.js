@@ -1,7 +1,7 @@
 const fs                = require('fs');
 const {join, resolve}   = require('path');
 const rmfr              = require('rmfr');
-const mkdirp            = require('mkdirp-promise');
+const mkdirp            = require('mkdirp');
 const rcopy             = require('recursive-copy');
 const through           = require('through');
 const {renderString}    = require('template-file');
@@ -60,7 +60,6 @@ class Builder {
         let config = (await JSON.parse(
             await fs.readFileSync(configPath, 'utf8')
         ));
-
 
         if(Array.isArray(config.description)){
             config.description = config.description.join("\n\n")
@@ -123,12 +122,10 @@ class Builder {
             this.config.slug
         );
 
-
         let hasFailed = false;
         const vars = await require(
             resolve(this.paths.src, './update.js')
         );
-
 
         Object.entries(vars).forEach(([varName, varValue]) => {
             if(!varValue){
@@ -323,7 +320,6 @@ class Builder {
             const lastBuildVersion = await this.getLastBuildVersion();
             const latestVars       = await this.getLatestVars();
 
-
             // exit early if not all vars were fetched
             if(!latestVars){
                 resolve(this.config.slug)
@@ -332,7 +328,6 @@ class Builder {
 
             this.config = {...(await this.getConfig())};
             this.vars   = {...latestVars};
-
 
             // build
             if(!lastBuildVersion || lastBuildVersion !== this.vars.version){
