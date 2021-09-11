@@ -25,7 +25,5 @@ module.exports = fetch('')
             ext    : false
         });
 
-        console.log(data);
-
         return data;
     });

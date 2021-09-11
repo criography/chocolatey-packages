@@ -2,11 +2,11 @@
 
 $packageName    = "garmin-basecamp"
 $installerType  = "EXE"
-$packageVersion = "4.7.3"
-$url            = "https://download.garmin.com/software/BaseCamp_473.exe"
+$packageVersion = "4.7.4"
+$url            = "https://download.garmin.com/software/BaseCamp_474.exe"
 $silentArgs     = "/quiet"
 $validExitCodes = @(0)
-$checksum       = "f1d925ce0ac870b1cb28586bcd8591e13f40a48c7f42d6cc830b4290f708e86d"
+$checksum       = "70a9474959be4f24babe10e71dc1482730674f9a844558be5db1c3de78deb523"
 $checksumType   = "sha256"
 
 

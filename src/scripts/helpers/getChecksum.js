@@ -3,7 +3,7 @@ const {resolve, join}   = require('path');
 const request           = require('request');
 const progress          = require('request-progress');
 //const ProgressBar       = require('ascii-progress');
-const mkdirp            = require('mkdirp-promise');
+const mkdirp            = require('mkdirp');
 const hasha             = require('hasha');
 
 const {DIR_CACHE} = require('../constants');
@@ -27,7 +27,6 @@ const getChecksum = async ({slug, version, url, ext}) => {
     // @TODO exit early if version cache exists and just get the checksum. maybe even store checksum in a file?
 
     await mkdirp(outputDir);
-
     await new Promise((resolve, reject) => {
         progress(request(url))
 

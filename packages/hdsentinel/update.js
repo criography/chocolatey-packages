@@ -32,7 +32,6 @@ module.exports = (
             version : data.version,
             url     : data.downloadUrl
         });
-
         return data;
     })
     .catch((err) => {
