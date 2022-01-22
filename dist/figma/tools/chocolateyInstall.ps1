@@ -2,11 +2,11 @@
 
 $packageName    = "figma"
 $installerType  = "EXE"
-$packageVersion = "101.6.0"
+$packageVersion = "104.1"
 $url            = "https://www.figma.com/download/desktop/win"
 $silentArgs     = "/s /S /q /Q /quiet /silent /SILENT /VERYSILENT"
 $validExitCodes = @(0)
-$checksum       = "8709495418c0b872873b0316a25f86ee4247c0746201251e104d5e6c3a589f21"
+$checksum       = "cab4bbe78a2d95c52fb856eadf048a0c7ce600bb2215fc006b0dd752cd967199"
 $checksumType   = "sha256"
 
 
