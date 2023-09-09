@@ -4,14 +4,14 @@
     <metadata>
         <id>figma</id>
         <title>Figma</title>
-        <version>104.1</version>
+        <version>116.13.2</version>
         <authors>Figma, Inc.</authors>
         <owners>criography</owners>
         <summary>Figma is the first collaborative UI design tool built in the browser.</summary>
         <description>[Features](https://www.figma.com/features/)</description>
         <projectUrl>https://www.figma.com</projectUrl>
         <tags>design web-design ui ui-design sketch vector cross-platform</tags>
-        <copyright>Copyright © 2018 Figma, Inc.</copyright>
+        <copyright>Copyright © 2023 Figma, Inc.</copyright>
         <licenseUrl>https://www.figma.com/summary-of-policy/</licenseUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <iconUrl>https://cdn.jsdelivr.net/gh/criography/chocolatey-packages@2.1.0/packages/figma/icon.png</iconUrl>
